@@ -1,0 +1,29 @@
+
+a {
+  text-decoration: none;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* border-radius: 50px; */
+  /* color: rgb(236, 236, 236); */
+  color: rgb(236, 236, 236);
+  transition: font-size 0.3s ease, backgound-color 0.3s ease-in;
+  }
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: gainsboro;
+  /* background: linear-gradient(to right, #e5049e, #4320ac); */
+  transition: width 0.4s ease;
+  }
+
+a:hover::after {
+  width: 100%;
+  }

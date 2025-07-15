@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Tektur';
+  src: url('../src/assets/fonts/Tektur_Condensed-ExtraBold.ttf') format('truetype');
+}
+
+:root {
+  --font-tektur: 'Tektur', sans-serif;
+  background-color: #121212;
+}
