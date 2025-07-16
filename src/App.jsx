@@ -139,7 +139,7 @@ function DrawerAppBar(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{display: 'flex',flexDirection: 'column',width: '100vw', backgroundColor: 'whitesmoke'}}>
+      <Box component="main" sx={{display: 'flex',flexDirection: 'column',width: '100vw', backgroundColor: 'whitesmoke', overflow: 'hidden'}}>
       <Home id="home"/>
       <About id="about"/>
       {/* <TextLoop/> */}

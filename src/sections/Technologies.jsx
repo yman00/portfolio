@@ -68,7 +68,7 @@ const Technologies = ({ id }) => {
         display: 'flex',
         flexDirection: 'column',
         width: '100%',
-        height: { xs: '40vh', sm: '45vh' },
+        // height: { xs: '40vh', sm: '45vh' },
         backgroundColor: '#121212',
         justifyContent: 'center',
         alignItems: 'center',
