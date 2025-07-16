@@ -3,18 +3,18 @@ import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
 import { keyframes } from '@mui/system';
 
-import html from '../assets/image/html-5.png';
-import css from '../assets/image/css-3.png';
-import js from '../assets/image/javascript.png';
-import reactJs from '../assets/image/reactJs.png';
-import tailwind from '../assets/image/tailwind.png';
-import nodejs from '../assets/image/nodejs.png';
-import python from '../assets/image/python.png';
-import mongodb from '../assets/image/mongodb.png';
-import mysql from '../assets/image/mysql.png';
-import VScode from '../assets/image/VScode.png';
-import figma from '../assets/image/figma.png';
-import canva from '../assets/image/canva.png';
+import html from '../assets/image/Technologies-Icons/html-5.png';
+import css from '../assets/image/Technologies-Icons/css-3.png';
+import js from '../assets/image/Technologies-Icons/javascript.png';
+import reactJs from '../assets/image/Technologies-Icons/reactJs.png';
+import tailwind from '../assets/image/Technologies-Icons/tailwind.png';
+import nodejs from '../assets/image/Technologies-Icons/nodejs.png';
+import python from '../assets/image/Technologies-Icons/python.png';
+import mongodb from '../assets/image/Technologies-Icons/mongodb.png';
+import mysql from '../assets/image/Technologies-Icons/mysql.png';
+import VScode from '../assets/image/Technologies-Icons/VScode.png';
+import figma from '../assets/image/Technologies-Icons/figma.png';
+import canva from '../assets/image/Technologies-Icons/canva.png';
 
 // Define scrolling keyframes
 const marquee = keyframes`
