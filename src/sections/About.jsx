@@ -16,7 +16,7 @@ const About = ({id}) => {
   return (
     <Box id={id} 
     sx={{display: 'flex', 
-        width: '100%', 
+        // width: '100%', 
         // height: {xs:'150vh', sm:'100vh'}, 
         backgroundColor: '#121212', 
         justifyContent: 'center', 
@@ -25,7 +25,7 @@ const About = ({id}) => {
         color: 'gray',
         flexDirection: {xs: 'column', sm: 'row'}
         }}>
-      <Box sx={{display: 'flex', flexDirection: 'column', width: {xs: '100vw', sm: '48vw'}, height: '90vh', justifyContent: 'center', alignItems: 'center'}}>
+      <Box sx={{display: 'flex', flexDirection: 'column', width: {xs: '100vw', sm: '48vw'},pt: {xs:'5rem', sm:'none'}, justifyContent: 'center', alignItems: 'center'}}>
         <Stack data-aos="fade-right" sx={{width: '70%', gap: 1}}>
           <Typography variant='h5'>Hi there!</Typography>
           <Typography variant='h3' sx={{fontFamily: 'Tektur', color: '#d2824a'}}>YMAN PURDY</Typography>

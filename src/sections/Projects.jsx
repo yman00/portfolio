@@ -41,10 +41,12 @@ const Project = ({id}) => {
       </Typography>
       <br />
       <Typography variant='body1' style={{textAlign: 'center' }}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Delectus officiis nulla ea tenetur rerum at numquam laboriosam, 
-        quibusdam doloremque? Cum veniam eius laborum eos, 
-        autem quos tempora. Culpa, harum voluptatum?
+          Participated in the development of an in-house
+          Tricycle Franchising and Renewal System for a
+          local government unit, enhancing operational
+          workflows by automating application processing,
+          streamlining document verification, and improving
+          tracking and reporting capabilities."
       </Typography>
      </Box>
      </Box>
@@ -62,10 +64,12 @@ const Project = ({id}) => {
       </Typography>
       <br />
       <Typography variant='body1' style={{textAlign: 'center'}}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Delectus officiis nulla ea tenetur rerum at numquam laboriosam, 
-        quibusdam doloremque? Cum veniam eius laborum eos, 
-        autem quos tempora. Culpa, harum voluptatum?
+        Participated in the development of an in-house Real
+        Property Tax Information System for a local government
+        unit, enhancing operational workflows by automating
+        tax computation, streamlining billing and payment
+        processing, and improving data accuracy and accessibility
+        for both staff and constituents.
       </Typography>
      </Box>
      <Box sx={{display: 'flex', backgroundColor: 'beige', width: {xs: '90vw', sm: '40vw'}, height: '20rem'}}>
