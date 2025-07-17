@@ -20,7 +20,7 @@ import Contact from './sections/Contact';
 import Project from './sections/Projects';
 import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import './app.css';
+import './App.css';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 import TextLoop from './sections/TextLoop';
 import Technologies from './sections/Technologies';
