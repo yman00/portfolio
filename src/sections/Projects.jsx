@@ -58,7 +58,7 @@ const Project = ({id}) => {
         flexWrap: 'wrap-reverse'}}>
      <Box sx={{display: 'flex', backgroundColor: '#121212', width: {xs: '90vw', sm: '40vw'}, height: {xs: 'none', sm: '20rem'}, flexDirection: 'column', justifyContent: 'center'}}>
       <Typography variant='h5' style={{textAlign: 'center', color: '#d2824a', fontFamily: 'Tekur'}}>
-        TRICYCLE FRANCHISING AND RENEWAL SYSTEM
+        REAL PROPERTY TAX INFORMATION SYSTEM
       </Typography>
       <br />
       <Typography variant='body1' style={{textAlign: 'center'}}>
