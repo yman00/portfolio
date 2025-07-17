@@ -19,16 +19,14 @@ const About = ({id}) => {
         // width: '100%', 
         // height: {xs:'150vh', sm:'100vh'}, 
         backgroundColor: '#121212', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        gap: 2, 
+        justifyContent: 'space-evenly', 
         color: 'gray',
         flexDirection: {xs: 'column', sm: 'row'}
         }}>
-      <Box sx={{display: 'flex', flexDirection: 'column', width: {xs: '100vw', sm: '48vw'},pt: {xs:'5rem', sm:'none'}, justifyContent: 'center', alignItems: 'center'}}>
-        <Stack data-aos="fade-right" sx={{width: '70%', gap: 1}}>
+      <Box sx={{display: 'flex', flexDirection: 'column', width: {xs: '100vw', sm: '40vw'},pt: {xs:'5rem', sm:'none'}, justifyContent: 'center', alignItems: 'center'}}>
+        <Stack data-aos="fade-right" sx={{width: '100%', gap: 1, px: '2rem'}}>
           <Typography variant='h5'>Hi there!</Typography>
-          <Typography variant='h3' sx={{fontFamily: 'Tektur', color: '#d2824a'}}>YMAN PURDY</Typography>
+          <Typography variant='h3' sx={{fontFamily: 'Tektur', color: '#d2824a'}}>YMAN SORIANO MANGARING</Typography>
           <Typography variant='body2' sx={{ textAlign: 'justify'}}>
             Bachelor of Science in Information Technology graduate with a strong passion 
             for technology and a foundation in system development and data analytics. 

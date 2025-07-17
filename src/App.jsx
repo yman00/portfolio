@@ -24,6 +24,7 @@ import './App.css';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 import TextLoop from './sections/TextLoop';
 import Technologies from './sections/Technologies';
+import YSlogo from './assets/image/YS-Logo.png';
 
 const drawerWidth = "50%";
 const navItems = ['Home', 'About','Projects', 'Contact'];
@@ -37,16 +38,16 @@ function DrawerAppBar(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', backgroundColor: '#121212', height: '100%' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        &lt;/&gt;
+        <img src={YSlogo} alt="YS Logo" style={{ height: 40 }} />
       </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton
-              sx={{ textAlign: 'left', px: '2rem', py: '1rem' }}
+              sx={{ textAlign: 'left', px: '2rem', py: '1rem', color: 'whitesmoke' }}
               onClick={() => {
                 const sectionId = item.toLowerCase();
                 const element = document.getElementById(sectionId);
@@ -89,7 +90,7 @@ function DrawerAppBar(props) {
               }}
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'flex' }, color: 'gray', pl: '5rem'}}
           >
-            <Typography variant='h5' sx={{fontFamily: 'Tektur', cursor: 'pointer' }}>&lt; / &gt;</Typography>
+            <img src={YSlogo} alt="YS Logo" style={{ height: 40 }} />
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 4, pr: '3rem' }}>
             {navItems.map((item) => (

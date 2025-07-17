@@ -76,7 +76,7 @@ const Technologies = ({ id }) => {
         gap: 4,
       }}
     >
-      <Box sx={{display: 'grid',
+      <Box data-aos="fade-up" sx={{display: 'grid',
         placeItems: 'center',
         width: '100%', 
         pt: {xs:'none',
