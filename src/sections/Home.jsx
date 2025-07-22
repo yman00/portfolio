@@ -2,7 +2,6 @@ import React from 'react'
 import Box from '@mui/material/Box';
 import BlurText from "../Components/ReactBits/BlurText";
 import { p } from 'framer-motion/client';
-import Orb from '../Components/ReactBits/Orb';
 import { Typography } from '@mui/material';
 
 
@@ -35,14 +34,6 @@ const Home = ({id}) => {
         style={{fontFamily: 'Tektur', fontSize: '11vw', color: '#d2824a', padding: 2}}
       />
       </Box>
-      {/* <Box sx={{display: 'grid', width: {xs:'90%', sm:'45%'}, height: '90%', backgroundColor: '#121212', placeItems: 'center'}}>
-          <Orb
-            hoverIntensity={3}
-            rotateOnHover={true}
-            hue={246}
-            forceHoverState={false}
-          />
-      </Box> */}
     </Box>
   )
 }

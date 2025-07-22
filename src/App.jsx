@@ -79,19 +79,17 @@ function DrawerAppBar(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography
-            variant="h6"
-            component="div"
-              onClick={() => {
-                const element = document.getElementById('home');
-                if (element) {
-                  element.scrollIntoView({ behavior: 'smooth' });
-                }
+            <Box
+              sx={{
+                flexGrow: 1,
+                display: { xs: 'none', sm: 'flex' },
+                pl: '5rem',
+                cursor: 'pointer',
+                alignItems: 'center'
               }}
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'flex' }, color: 'gray', pl: '5rem'}}
-          >
-            <img src={YSlogo} alt="YS Logo" style={{ height: 40 }} />
-          </Typography>
+            >
+              <img src={YSlogo} alt="YS Logo" style={{ height: 30 }} />
+            </Box>
           <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: 4, pr: '3rem' }}>
             {navItems.map((item) => (
             <a

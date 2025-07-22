@@ -16,7 +16,6 @@ import VScode from '../assets/image/Technologies-Icons/VScode.png';
 import figma from '../assets/image/Technologies-Icons/figma.png';
 import canva from '../assets/image/Technologies-Icons/canva.png';
 
-// Define scrolling keyframes
 const marquee = keyframes`
   0% {
     transform: translateX(0%);
@@ -94,23 +93,9 @@ const Technologies = ({ id }) => {
           }}
         >
           {renderMarqueeItems(techItems)}
-          {renderMarqueeItems(techItems)} {/* duplicate for seamless loop */}
+          {renderMarqueeItems(techItems)}
         </Box>
       </Box>
-
-      {/* Seamless Marquee for Tools */}
-      {/* <Box sx={{ overflow: 'hidden', width: '100%', py: 2 }}>
-        <Box
-          sx={{
-            display: 'flex',
-            width: 'max-content',
-            animation: `${marquee} 20s linear infinite`,
-          }}
-        >
-          {renderMarqueeItems(toolItems)}
-          {renderMarqueeItems(toolItems)}
-        </Box>
-      </Box> */}
     </Box>
   );
 };

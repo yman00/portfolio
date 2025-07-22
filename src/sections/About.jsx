@@ -5,6 +5,10 @@ import Stack from '@mui/material/Stack';
 import pic1 from '../assets/image/pic1.JPG';
 import Button from '@mui/material/Button';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -12,6 +16,14 @@ const About = ({id}) => {
     useEffect(() => {
     AOS.init({ duration: 500 }); // Initialize AOS here
   }, []);
+
+  const style = {color: '#d2824a',
+      fontSize: {xs:'9vw', sm:'2vw'},
+      cursor: 'pointer',
+      transition: 'font-size 0.3s ease-in-out',
+      '&:hover': {
+      fontSize: '3.5vw'}
+      }
 
   return (
     <Box id={id} 
@@ -36,10 +48,19 @@ const About = ({id}) => {
             Seeking an opportunity to apply my skills in creating innovative online solutions 
             and contributing to a dynamic, growth-oriented team.
           </Typography>
-          <Box sx={{display: 'flex', width: '100%', height: '4rem', gap: 2, pl: '1.5rem' }}>
-            <Box sx={{cursor: 'pointer'}}>
-              <Button variant='outlined' color='#d2824a' sx={{borderRadius: '6rem', color: '#d2824a', p: '.5'}} endIcon={<ArrowOutwardIcon />}>Learn More</Button>
-            </Box>
+          <Box sx={{display: 'flex', width: '100%', height: '4rem', gap: 2, p: '1rem' }}>
+            <GitHubIcon
+            onClick={() => window.open('https://github.com/yman00', '_blank')}
+            sx={style}/>
+            <FacebookRoundedIcon 
+            onClick={() => window.open('https://www.facebook.com/WizRems29', '_blank')} 
+            sx={style}/>
+            <EmailRoundedIcon 
+            onClick={() => window.open('mailto:ymanmangaring0@gmail.com')} 
+            sx={style}/>
+            <LinkedInIcon 
+            onClick={() => window.open('https://www.linkedin.com/in/mangaring-yman/', '_blank')} 
+            sx={style}/>
           </Box>
         </Stack>
       </Box>
