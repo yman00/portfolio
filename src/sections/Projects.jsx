@@ -26,17 +26,24 @@ const Project = ({id}) => {
         mb: '2rem'}}>
         PROJECTS
       </Box>
-      <Box sx={{  
+      <Box data-aos="fade-right" sx={{  
         display: 'flex',    
-        width: '100%',
         justifyContent: 'center',
-        gap: 2,
-        mb: '1rem',
         flexWrap: 'Wrap'}}>
-     <Box data-aos="fade-right" sx={{display: 'flex', backgroundColor: 'beige', width: {xs: '90vw', sm: '40vw'}, height: {xs: '12rem', sm: '20rem'}}}>
-    <img src={TrikeFranc} alt='TF' style={{ width: '100%', height: '100%', position: 'cover'}}/>
-     </Box>
-     <Box data-aos="fade-left" sx={{display: 'flex', backgroundColor: '#121212', width: {xs: '90vw', sm: '40vw'}, height: {xs: 'none', sm: '20rem'}, flexDirection: 'column', justifyContent: 'center'}}>
+     <Box
+      sx={{display: 'flex',
+        backgroundColor: 'beige',
+        width: {xs: '90vw', sm: '40vw'}, 
+        height: {xs: '12rem', sm: '20rem'}}}>
+        <img src={TrikeFranc} alt='TF' style={{ width: '100%', height: '100%', position: 'cover'}}/>
+      </Box>
+     <Box
+     sx={{display: 'flex',
+      backgroundColor: '#2e2e2e6d',
+      width: {xs: '90vw', sm: '40vw'}, 
+      height: {xs: 'none', sm: '20rem'}, 
+      flexDirection: 'column', 
+      justifyContent: 'center', p: 3,}}>
       <Typography variant='h5' style={{textAlign: 'center', color: '#d2824a', fontFamily: 'Tekur'}}>
         TRICYCLE FRANCHISING AND RENEWAL SYSTEM
       </Typography>
@@ -52,14 +59,20 @@ const Project = ({id}) => {
      </Box>
      </Box>
      <br />
-      <Box sx={{  
+     <br />
+      <Box data-aos="fade-left" sx={{  
         display: 'flex',    
         width: '100%',
         justifyContent: 'center',
-        gap: 2,
-        mb: '1rem',
         flexWrap: 'wrap-reverse'}}>
-     <Box data-aos="fade-right" sx={{display: 'flex', backgroundColor: '#121212', width: {xs: '90vw', sm: '40vw'}, height: {xs: 'none', sm: '20rem'}, flexDirection: 'column', justifyContent: 'center'}}>
+     <Box
+      sx={{display: 'flex',
+        backgroundColor: '#2e2e2e6d',
+        width: {xs: '90vw', sm: '40vw'},
+        height: {xs: 'none', sm: '20rem'}, 
+        flexDirection: 'column', 
+        justifyContent: 'center',
+        p: 3,}}>
       <Typography variant='h5' style={{textAlign: 'center', color: '#d2824a', fontFamily: 'Tekur'}}>
         REAL PROPERTY TAX INFORMATION SYSTEM
       </Typography>
@@ -73,8 +86,15 @@ const Project = ({id}) => {
         for both staff and constituents.
       </Typography>
      </Box>
-     <Box data-aos="fade-left" sx={{display: 'flex', justifyContent: 'center', backgroundColor: '#d2824a', width: {xs: '90vw', sm: '40vw'}, height: {xs: '12rem', sm: '20rem'}}}>
-      <img src={QM} alt='TF' style={{ position: 'cover'}}/>
+     <Box
+     sx={{display: 'flex', 
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#d2824a', 
+      width: {xs: '90vw', sm: '40vw'},
+      height: {xs: '12rem', sm: '20rem'}}}>
+      {/* <img src={QM} alt='TF' style={{ position: 'cover'}}/> */}
+      <Typography variant='h6' sx={{fontFamily: 'Tekur',color:'#121212'}}>No Media Available</Typography>
      </Box>
      </Box>
     </Box>
