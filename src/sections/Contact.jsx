@@ -41,6 +41,7 @@ const Contact = ({ id }) => {
       }}
     >
       <Box
+        data-aos="fade-up"
         component="form"
         ref={form}
         onSubmit={sendEmail}
@@ -49,9 +50,12 @@ const Contact = ({ id }) => {
           flexDirection: 'column',
           gap: 2,
           width: {xs:'100%', sm:'60%'},
+          p: 2,
+          backgroundColor: '#2e2e2e6d',
+          borderRadius: '1rem'
         }}
       >
-      <Box data-aos="fade-up" sx={{display: 'grid',
+      <Box sx={{display: 'grid',
         placeItems: 'center',
         width: '100%', 
         pt: {xs:'none', sm:'4rem', 

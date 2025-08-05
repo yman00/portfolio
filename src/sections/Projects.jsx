@@ -1,6 +1,7 @@
 import React from 'react'
 import Box from '@mui/material/Box';
 import TrikeFranc from '../assets/image/Projects-Img/TFload.png'
+import RPTL from '../assets/image/Projects-Img/RPTload.png'
 import QM from '../assets/image/Projects-Img/QM1.png'
 import Typography from '@mui/material/Typography';
 
@@ -93,8 +94,9 @@ const Project = ({id}) => {
       backgroundColor: '#d2824a', 
       width: {xs: '90vw', sm: '40vw'},
       height: {xs: '12rem', sm: '20rem'}}}>
+        <img src={RPTL} alt='rpt' style={{ width: '100%', height: '100%', position: 'cover'}}/>
       {/* <img src={QM} alt='TF' style={{ position: 'cover'}}/> */}
-      <Typography variant='h6' sx={{fontFamily: 'Tekur',color:'#121212'}}>No Media Available</Typography>
+      {/* <Typography variant='h6' sx={{fontFamily: 'Tekur',color:'#121212'}}>No Media Available</Typography> */}
      </Box>
      </Box>
     </Box>
